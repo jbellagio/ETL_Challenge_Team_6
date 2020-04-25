@@ -13,7 +13,7 @@ https://data.world/ndsouza/alcohol-v-life-expectancy (countries Alcohol v Life E
 
 Transformation:
 Drop all columns from country_population.csv except for “Country”, “Population”, “GDP”
-Join the csv files on their respective “Country” columns
+
 
 Loading:
 -Final database to load into will be Postgres using SQLalchemy ‘create engine’
